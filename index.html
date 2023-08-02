@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--External Style Sheet-->
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3f8256dd02.js" crossorigin="anonymous"></script>
+    <title>Image searching app</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+    <!--Main Navigation-->
+
+<header class="mb-10">
+  <div>
+    <h1>Find Images</h1>
+  </div>
+    <nav class="navbar py-3 fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand mx-3"><b>Search Engine</b></a>
+          
+          <form class="d-flex" role="search" id="search-form">
+            
+            <input type="text" id="search-box" placeholder="Search anything here...">
+            <button type="submit" onclick="reslt()"><i class="fa-solid fa-magnifying-glass fa-2x"></i></button>
+          </form>
+        </div>
+      </nav>
+</header>
+    <br><br><br>
+    <br>
+    <h2 id="heading">Search Result</h2>
+    <div id="search-result"></div>
+    <button id="show-more-btn" >Show more</button>
+    
+
+    <!-- <footer>
+      2023
+    </footer> -->
+<script src="index.js"></script>
+</body>
+</html>
